@@ -16,7 +16,7 @@ const article = ({ article }) => {
                 <div>Blog No: {article.id} </div>
                 <h3>{article.title}</h3>
                 <p>{article.body}</p>
-                <Link href="/"> &larr; Go Back</Link>
+                <Link href="/" ><h4 className={ArticleStyle.back}> &larr; Go Back </h4></Link>
             </div>
         </>
     )
