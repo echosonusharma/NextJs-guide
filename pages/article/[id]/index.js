@@ -39,7 +39,7 @@ use the data fetching methods that next.js provides for pages
 //             article
 //         }
 //     }
-// } 
+// }
 
 /*
 getServerSideProps gets the data at request/fetch time so it's slower 

@@ -9,7 +9,8 @@ const contact = () => {
         <>
             <h1>Contact</h1>
             <a href="https://github.com/echosonusharma"
-                className={ContactStyle.Contact}> Github</a>
+                target="_blank">
+                <h3 className={ContactStyle.contact}>Github</h3></a>
         </>
     )
 };

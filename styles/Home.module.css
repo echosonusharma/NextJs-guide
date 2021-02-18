@@ -32,3 +32,7 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+
+.contact:hover {
+  color: #0070f3;
+}

@@ -1,23 +1,15 @@
-import Head from 'next/head';
 import ArticleList from "../components/ArticleList";
 import styles from '../styles/Home.module.css';
 
 export default function Home({ articles }) {
 
   return (
-    <div >
-      <Head>
-        <title>Next.js Blog</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main >
-        <h1 className={styles.title}>
-          <a href="https://nextjs.org">Next.js </a> Blog
+    <main className={styles.main}>
+      <h1 className={styles.title}>
+        <a href="https://nextjs.org" target="_blank">Next.js </a> Blog
         </h1>
-        <ArticleList articles={articles} />
-      </main>
-    </div>
+      <ArticleList articles={articles} />
+    </main>
   )
 }
 
